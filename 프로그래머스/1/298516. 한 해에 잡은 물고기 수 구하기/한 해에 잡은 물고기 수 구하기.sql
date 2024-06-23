@@ -1,0 +1,4 @@
+SELECT COUNT(*) as FISH_COUNT
+FROM FISH_INFO
+WHERE YEAR(TIME) = '2021'  # DATE Type 칼럼의 연도만 추출 
+
